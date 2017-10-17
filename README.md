@@ -15,6 +15,15 @@ One gmail adress with authorized external app (to send the email)
 ```
 > python ./nicehash_checker.py BTC_ADDR NB_RIGS EMAIL_RECEIVER EMAIL_SENDER PASSWD_FROM_EMAIL_SENDER
 ```
+### Params:
+
+- `BTC_ADDR` : the Bitcoin adress where you get the payout
+- `NB_RIGS` : the number of rigs you got
+- `EMAIL_RECEIVER` : the email adress you want to received the email in case of trouble
+- `EMAIL_SENDER` : the email that gonna send the message (must be a GMAIL account !!!)
+- `PASSWD_FROM_EMAIL_SENDER` : the password from the gmail
+
+
 
 I have created a dedicated gmail adress for my server.
 If you want to add or complete the feature feel free to fork !
