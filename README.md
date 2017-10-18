@@ -15,6 +15,16 @@ One gmail adress with authorized external app (to send the email)
 ```
 > python ./nicehash_checker.py BTC_ADDR NB_RIGS EMAIL_RECEIVER EMAIL_SENDER PASSWD_FROM_EMAIL_SENDER
 ```
+
+#### With redirection:
+
+```
+> python ./nicehash_checker.py BTC_ADDR NB_RIGS EMAIL_RECEIVER EMAIL_SENDER PASSWD_FROM_EMAIL_SENDER >> nicehash_bot.log &
+```
+
+The script is gonna run in background and evrything are going to be written in the nicehash_bot.log file
+
+
 ### Params:
 
 - `BTC_ADDR` : the Bitcoin adress where you get the payout
